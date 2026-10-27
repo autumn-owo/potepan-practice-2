@@ -1,0 +1,36 @@
+.dentaku {
+    max-width: 300px;
+    background-color: #a3f8b2;
+}
+
+#gamen {
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: #528aaf;
+    color: white;
+    font-size: 36px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.number,.operator,.clear,.equal{
+    background-color: bisque;
+}
+.btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.btn button {
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.clear,
+.equal {
+    grid-column: span 2;
+}
